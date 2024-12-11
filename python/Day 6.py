@@ -1,5 +1,5 @@
-s='''62     73     75     65'''.split()
-t='''644   1023   1240   1023'''.split()
+s=INPUT1.split()
+t=INPUT2.split()
 tt=1
 for a,b in zip(s,t):
     a,b=int(a),int(b)
